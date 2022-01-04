@@ -1,0 +1,4 @@
+14,City A, 1, 2, 40
+b2,Atlantis,2,3, 85
+A3,Orestiada,2,3, 10
+A13,Athens,2,3, 20

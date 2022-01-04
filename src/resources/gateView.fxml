@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GateViewController">
+   <children>
+      <TableView fx:id="gateView" layoutX="111.0" layoutY="28.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="gateIDColumn" prefWidth="78.0" text="GateID" />
+            <TableColumn fx:id="categoryColumn" prefWidth="133.0" text="Category" />
+          <TableColumn fx:id="statusColumn" prefWidth="135.0" text="Status" />
+            <TableColumn fx:id="flightIDColumn" prefWidth="113.0" text="FlightID" />
+            <TableColumn fx:id="departureTimeColumn" prefWidth="140.0" text="Departure Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
